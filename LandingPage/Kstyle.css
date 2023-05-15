@@ -1,0 +1,263 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;  
+}
+
+.hero{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+nav{
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  padding: 20px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: 180px;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 120px;
+  font-size: larger;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+
+.content{
+  text-align: center;
+}
+
+.content h1{
+  font-size:160px ;
+  color: #fff;
+  font-weight: 600;
+  font-style:italic;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content a{
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-size: 24px;
+  border: 2px solid #fff;
+  padding: 14px 70px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.back-video{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width:100%;
+}
+
+.explore{
+  align-items: center;
+  padding-left: 18cm;
+  margin-top: 10px;
+  color: blue;
+  background-color: antiquewhite;
+}
+
+.image1{
+  position: absolute;
+  top: 22cm;
+  width: 30%;
+  padding: 10px;
+  border-radius: 50px;
+  z-index: -1;
+  box-shadow: 10px 10px;
+  margin-left: 45px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.cards img:hover{
+  transform: scale(1.1);
+}
+
+.cards a{
+  position: absolute;
+  color: #fff;
+  font-size: 80px;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 5px 5px black;
+  text-decoration: none;
+}
+
+
+.text1{
+  padding-left: 125px;
+  padding-top: 110px;
+}
+
+.image2{
+  position: absolute;
+  top: 22cm;
+  width: 30%;
+  padding: 10px;
+  border-radius: 50px;
+  z-index: -1;
+  box-shadow: 10px 10px;
+  margin-left: 15cm;
+  transition: transform 0.3s ease-in-out;
+}
+
+.text2{
+  padding-left: 18cm;
+  padding-top: 110px;
+}
+
+.image3{
+  position: absolute;
+  top: 22cm;
+  width: 30%;
+  padding: 10px;
+  border-radius: 50px;
+  z-index: -1;
+  box-shadow: 10px 10px;
+  margin-left: 28cm;
+  transition: transform 0.3s ease-in-out;
+}
+
+.text3{
+  padding-left: 31cm;
+  padding-top: 109px;
+}
+
+.image4{
+  position: absolute;
+  top: 31cm;
+  width: 30%;
+  padding: 10px;
+  border-radius: 50px;
+  z-index: -1;
+  box-shadow: 10px 10px;
+  margin-left: 45px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.text4{
+  padding-left:126px;
+  padding-top: 14cm;
+}
+
+.image5{
+  position: absolute;
+  top: 31cm;
+  width: 30%;
+  padding: 10px;
+  border-radius: 50px;
+  z-index: -1;
+  box-shadow: 10px 10px;
+  margin-left: 15cm;
+  transition: transform 0.3s ease-in-out;
+}
+
+.text5{
+  padding-left:17cm;
+  padding-top: 13cm;
+}
+
+.image6{
+  position: absolute;
+  top: 31cm;
+  width: 30%;
+  padding: 10px;
+  border-radius: 50px;
+  z-index: -1;
+  box-shadow: 10px 10px;
+  margin-left: 28cm;
+  transition: transform 0.3s ease-in-out;
+}
+
+.text6{
+  padding-left:30cm;
+  padding-top: 13cm;
+}
+
+.more h2{
+    text-decoration:none;
+    display: inline-block;
+    color:chocolate;
+    font-size: 28px;
+    border: 3px solid chocolate;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 21cm; 
+    margin-left: 16cm;
+}
+
+footer {
+  margin-top: 3cm;
+  background-color: cadetblue;
+  color: white; 
+  padding: 10px;
+ 
+}
+
+footer h2{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a{
+  color: #fff;
+  font-size: larger;
+  font-style: oblique;
+}
+
+.popular{
+  display: inline-block;
+  margin-left: 100px;
+  list-style: none;
+}
+
+.explore2{
+  display: inline-block;
+  margin-left: 6cm;
+  list-style: none;
+}
+
+.contact{
+  display: inline-block;
+  margin-left: 5cm;
+}
+
+.social{
+  top: 46cm;
+  position: absolute;
+  display: inline-block;
+  margin-left: 4cm;
+  margin-top: 0;
+}
